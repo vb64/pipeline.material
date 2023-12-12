@@ -10,5 +10,5 @@ class TestsMaterial(TestBase):
 
     def test_material(self):
         """Check as string."""
-        assert str(self.material) == 'xxx'
+        assert "smys 20000" in str(self.material)
         assert self.material.smys == 20000

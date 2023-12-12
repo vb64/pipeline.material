@@ -14,7 +14,7 @@ from pipeline_material import PipelineMaterial
 material = PipeMaterial("Steel", 20000)
 
 assert material.smys == 20000
-assert str(material) == 'xxx'
+assert "smys 20000" in str(material)
 ```
 
 ## Development

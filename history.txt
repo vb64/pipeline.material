@@ -1,4 +1,4 @@
-11.12.2023 ver.1.0
+12.12.2023 ver.1.0
 ------------------
 
-+ ASME B31G method
++ Initial version.

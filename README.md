@@ -1,4 +1,5 @@
 # Pipeline material class for static integrity calculation
+
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.material/pep257.yml?label=Pep257&style=plastic&branch=main)](https://github.com/vb64/pipeline.material/actions?query=workflow%3Apep257)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.material/py2.yml?label=Python%202.7&style=plastic&branch=main)](https://github.com/vb64/pipeline.material/actions?query=workflow%3Apy2)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vb64/pipeline.material/py3.yml?label=Python%203.8-3.13&style=plastic&branch=main)](https://github.com/vb64/pipeline.material/actions?query=workflow%3Apy3)
@@ -24,17 +25,21 @@ assert "smys 20000" in str(material)
 
 ## Development
 
+```bash
+git clone git@github.com:vb64/pipeline.material.git
+cd pipeline.material
 ```
-$ git clone git@github.com:vb64/pipeline.material.git
-$ cd pipeline.material
-```
+
 With Python 3:
+
+```bash
+make setup PYTHON_BIN=/path/to/python3
+make tests
 ```
-$ make setup PYTHON_BIN=/path/to/python3
-$ make tests
-```
+
 With Python 2:
-```
-$ make setup2 PYTHON_BIN=/path/to/python2
-$ make tests2
+
+```bash
+make setup2 PYTHON_BIN=/path/to/python2
+make tests2
 ```

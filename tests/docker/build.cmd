@@ -1,5 +1,3 @@
-rem files to add
 cp ../../tests/requirements.txt tests.txt
-docker-compose build
-rem cleanup
+docker compose build
 rm tests.txt

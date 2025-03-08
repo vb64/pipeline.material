@@ -24,7 +24,7 @@ jobs:
       run: |
         cd tests/docker
         cp ../../tests/requirements.txt tests.txt
-        docker-compose build
+        docker compose build
 
     - name: Run tests
-      run: docker-compose --file tests/docker/docker-compose.yml run py2
+      run: docker compose --file tests/docker/docker-compose.yml run py2
